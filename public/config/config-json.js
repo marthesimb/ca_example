@@ -56,7 +56,7 @@ module.exports = function configJSON(req) {
 							"dataType": "String",
 							"isNullable": false,
 							"direction": "in"
-						}],
+					}}],
 					"outArguments": []
 				}
 			}
