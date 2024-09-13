@@ -32,7 +32,10 @@ app.get('/config.json', (req, res) => {
     res.status(200).json(configJSON(req));
 });
 
-
+// Return JSON
+app.get('/config.js', (req, res) => {
+    res.status(200).json(configJSON(req));
+});
 // Publish
 app.post('/publish', (req, res) => {
     console.log(res.status(200).json())
