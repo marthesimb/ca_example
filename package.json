@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mkdir dist && cp package.json dist && cp -r src/* dist/",
+
     "start": "nodemon app.js"
   },
   "author": "",
